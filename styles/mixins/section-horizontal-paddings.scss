@@ -1,0 +1,4 @@
+@mixin section-horizontal-paddings {
+  @include safe-area(padding-right, right, $section-horizontal-paddings-lg);
+  @include safe-area(padding-left, left, $section-horizontal-paddings-lg);
+}

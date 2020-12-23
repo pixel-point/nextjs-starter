@@ -1,0 +1,79 @@
+@import './fonts.scss';
+// Colors
+$color-primary: #1a1a1a;
+$color-secondary: #f2f2f2;
+$color-tertiary: #fff;
+$color-quartenary: #999;
+
+$color-accent-primary: #cf3;
+
+/* Fonts | Note, 1rem = 1vw currently */
+
+// families
+$font-family-primary: 'Druk Wide', sans-serif;
+$font-family-secondary: 'Optimo Plain', sans-serif;
+$font-family-tertiary: 'Druk Wide Condensed', sans-serif;
+
+// sizes
+
+// aux, used in some UI elements rather irregularly
+
+$font-size-aux-sm: 1.25rem;
+$font-size-aux-md: 1.5rem;
+$font-size-aux-lg: 1.625rem;
+
+// text content
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-md: 1.125rem;
+$font-size-lg: 1.875rem;
+$font-size-xl: 2.5rem;
+
+// titles
+
+$font-size-title-sm: 3.75rem;
+$font-size-title-md: 5rem;
+$font-size-title-lg: 9.375rem;
+
+// line heights
+$line-height-even: 1;
+$line-height-xs: 1.1;
+$line-height-sm: 1.2;
+$line-height-md: 1.3;
+$line-height-lg: 1.5;
+
+// letter spacing
+$letter-spacing-sm: 0.03em;
+$letter-spacing-md: 0.05em;
+$letter-spacing-lg: 0.1em;
+
+// font weights
+$font-weight-xs: 400;
+$font-weight-sm: 500;
+$font-weight-md: 600;
+$font-weight-lg: 700;
+$font-weight-xl: 800;
+$font-weight-xxl: 900;
+
+/* Spacing */
+
+$spacing-sm: 1.875rem;
+$spacing-md: 3.75rem;
+$spacing-lg: 7.5rem;
+$spacing-xl: 9.375rem;
+
+/* Section horizonal paddings */
+$section-horizontal-paddings-lg: 2.1875rem;
+
+// Animate
+$transition-base: 0.2s;
+
+// Breakpoints
+$breakpoint-lg-down: 1330px - 0.02px;
+$breakpoint-md-down: 1024px - 0.02px;
+$breakpoint-sm-down: 768px - 0.02px;
+$breakpoint-xs-down: 414px - 0.02px;
+
+// Additional
+$column-gap: 1.875rem;
