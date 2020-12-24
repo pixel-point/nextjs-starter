@@ -1,0 +1,43 @@
+.input {
+  position: relative;
+}
+
+.input__inner {
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.25rem;
+  font-family: $font-family-secondary;
+  font-size: $font-size-md;
+  line-height: $line-height-md;
+  color: $color-tertiary;
+  background-color: #242425;
+  border: none;
+  outline: none;
+
+  &:-webkit-autofill,
+  &:-webkit-autofill:hover,
+  &:-webkit-autofill:focus,
+  &:-webkit-autofill:active {
+    transition: ease-in-out 0s, ease-in-out 0s;
+    transition-duration: 5000s, 5000s;
+    transition-property: background-color, color;
+  }
+
+  &::placeholder {
+    color: $color-quartenary;
+  }
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: 50%;
+  right: 1.25rem;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transform: translateY(-50%);
+}

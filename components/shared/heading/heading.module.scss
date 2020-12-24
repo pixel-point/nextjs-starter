@@ -1,0 +1,62 @@
+.heading {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: $font-family-primary;
+  font-weight: $font-weight-xl;
+  text-transform: uppercase;
+
+  &_size {
+    &_xxl {
+      font-size: $font-size-title-lg;
+      font-weight: $font-weight-xl;
+      line-height: $line-height-even;
+      letter-spacing: $letter-spacing-sm;
+    }
+
+    &_xl {
+      font-size: $font-size-title-md;
+      font-weight: $font-weight-xxl;
+      line-height: $line-height-xs;
+      letter-spacing: $letter-spacing-md;
+    }
+
+    &_lg {
+      font-size: $font-size-title-sm;
+      font-weight: $font-weight-xxl;
+      line-height: $line-height-even;
+      letter-spacing: $letter-spacing-md;
+    }
+
+    &_md {
+      font-size: $font-size-lg;
+      font-weight: $font-weight-xxl;
+      line-height: $line-height-sm;
+      letter-spacing: $letter-spacing-md;
+    }
+  }
+
+  &_theme {
+    &_primary {
+      color: $color-primary;
+    }
+
+    &_secondary {
+      color: $color-tertiary;
+    }
+
+    &_primary-inverted {
+      color: transparent;
+      -webkit-text-stroke: 2px $color-primary;
+    }
+
+    &_secondary-inverted {
+      color: transparent;
+      -webkit-text-stroke: 2px $color-tertiary;
+    }
+
+    &_accent-inverted {
+      color: transparent;
+      -webkit-text-stroke: 2px $color-accent-primary;
+    }
+  }
+}
